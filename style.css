@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Orbitron, 'sans-serif';
+  scroll-behavior: smooth;
+}
+
+.top-wrapper {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(45deg, rgb(0, 0, 0), black, rgb(50, 50, 50), rgb(139, 139, 139));
+  background-size: 300% 300%;
+  animation: color 12s ease-in-out infinite;
+}
+@keyframes color {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  10% {
+    background-position: 0 50%;
+  }
+}
+
+h1 {
+  line-height: 50px;
+  margin-left: 900px;
+  width: 800px;
+  padding-top: 250px;;
+  text-align: center;
+}
+
+#header {
+  font-size: 35px;
+  letter-spacing: 2px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  background-clip: text;
+  -webkit-text-stroke-color: transparent;
+  -webkit-text-stroke-width: calc(1em / 16);
+  -webkit-background-clip: text;
+}
+.color1 {
+  letter-spacing: 5px;
+  color: rgb(255, 0, 0);
+  background-color: rgb(0, 0, 0);
+  background-clip: text;
+  -webkit-text-stroke-color: transparent;
+  -webkit-text-stroke-width: calc(1em / 16);
+  -webkit-background-clip: text;
+}
+
+.color2 {
+  letter-spacing: 5px;
+  color: rgb(4, 255, 0);
+  background-color: rgb(0, 0, 0);
+  background-clip: text;
+  -webkit-text-stroke-color: transparent;
+  -webkit-text-stroke-width: calc(1em / 16);
+  -webkit-background-clip: text;
+}
+
+.color3 {
+  letter-spacing: 5px;
+  color: rgb(246, 255, 0);
+  background-color: rgb(0, 0, 0);
+  background-clip: text;
+  -webkit-text-stroke-color: transparent;
+  -webkit-text-stroke-width: calc(1em / 16);
+  -webkit-background-clip: text;
+}
+
+.color4 {
+  letter-spacing: 5px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  background-clip: text;
+  -webkit-text-stroke-color: transparent;
+  -webkit-text-stroke-width: calc(1em / 16);
+  -webkit-background-clip: text;
+}
+
+.nav-down {
+  margin-left: 1150px;
+  border-radius: 40px;
+  text-decoration: none;
+  font-size: 50px;
+  letter-spacing: 3px;
+  background-color: rgb(60, 60, 60);
+  color: rgb(255, 255, 255);
+  padding: 10px 25px;
+
+}
+.nav-down:hover {
+  font-weight: bold;
+  cursor: pointer;
+  color: black;
+  background-color: orangered;
+  z-index: -1;
+  box-shadow: 0 0 10px orangered,
+              0 0 20px orangered,
+              0 0 40px rgb(255, 247, 0),
+              0 0 80px rgb(0, 195, 255),
+              0 0 100px rgb(38, 0, 255);
+  transition: 0.25s;
+}
+
+.nav-down:active {
+  color: rgb(255, 255, 255);
+}
+
+#projects {
+  height: 1080px;
+}
