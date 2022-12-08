@@ -6,6 +6,7 @@
 }
 
 .top-wrapper {
+  display: inline-block;
   height: 100vh;
   width: 100%;
   background: linear-gradient(45deg, rgb(0, 0, 0), black, rgb(50, 50, 50), rgb(139, 139, 139));
@@ -24,11 +25,21 @@
   }
 }
 
+.MyFace {
+  max-width: 100vh;
+  height: auto;
+}
+
+h1 #header {
+  display: inline-block;
+}
+
 h1 {
+  display: inline-block;
   line-height: 50px;
   margin-left: 900px;
-  width: 800px;
-  padding-top: 250px;;
+  max-width: 800px;
+  padding-top: 250px;
   text-align: center;
 }
 
@@ -83,7 +94,7 @@ h1 {
 }
 
 .nav-down {
-  margin-left: 1150px;
+  margin-left: 60%;
   border-radius: 40px;
   text-decoration: none;
   font-size: 50px;
@@ -113,4 +124,30 @@ h1 {
 
 #projects {
   height: 1080px;
+}
+
+.hire-me {
+  margin-left: 60%;
+  border-radius: 40px;
+  text-decoration: none;
+  font-size: 50px;
+  letter-spacing: 3px;
+  background-color: rgb(60, 60, 60);
+  color: rgb(255, 255, 255);
+  padding: 10px 25px;
+
+}
+
+.hire-me:hover {
+  font-weight: bold;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  z-index: -1;
+  box-shadow: 0 0 10px rgb(0, 213, 255),
+              0 0 20px rgb(0, 123, 255),
+              0 0 40px rgb(0, 34, 255),
+              0 0 80px rgb(153, 0, 255),
+              0 0 100px rgb(255, 0, 251);
+  transition: 0.25s;
 }
